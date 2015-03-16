@@ -1,0 +1,39 @@
+Source: python-oath
+Priority: optional
+Maintainer: Goswin von Brederlow <brederlo@q-leap.de>
+Standards-Version: 3.9.4
+Section: libs
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/python-oath.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/python-oath.git;a=summary
+X-Python-Version: >= 2.6
+X-Python3-Version: >= 3.2
+Build-Depends:
+ debhelper (>= 9~),
+ dh-python,
+ python-all (>= 2.6.6-3~),
+ python-setuptools,
+ python3-all,
+ python3-setuptools
+
+Package: python-oath
+Section: libs
+Architecture: any
+Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}, python-crypto
+Description: implementation of the three main OATH specifications
+ Oath includes 3 modules implementing the three main OATH specifications:
+ - HOTP, an event based one-time password standard using HMAC signatures,
+ - TOTP, a time based OTP,
+ - OCRA, a mixed OTP / signature system based on HOTP for complex use cases.
+ This package supports python 2.x.
+
+Package: python3-oath
+Section: libs
+Architecture: any
+Depends: ${misc:Depends}, ${python3:Depends}, ${shlibs:Depends}, python3-crypto
+Description: implementation of the three main OATH specifications
+ Oath includes 3 modules implementing the three main OATH specifications:
+ - HOTP, an event based one-time password standard using HMAC signatures,
+ - TOTP, a time based OTP,
+ - OCRA, a mixed OTP / signature system based on HOTP for complex use cases.
+ This package supports python 3.x.
