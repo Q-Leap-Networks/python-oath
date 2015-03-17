@@ -3,3 +3,8 @@ oath.egg-info/
 .pybuild/
 debian/*.log
 *~
+debian/files
+debian/*.debhelper
+debian/*.substvars
+debian/python-oath/
+debian/python3-oath/
