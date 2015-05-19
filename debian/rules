@@ -1,0 +1,17 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+export DH_VERBOSE=1
+export PYBUILD_NAME = oath
+
+# include buildflags, vendor, ...
+include /usr/share/dpkg/default.mk
+
+ifeq ($(shell $(call dpkg_vendor_derives_from,Qlustar)),yes)
+    # Qlustar specific stuff
+    include /usr/share/ql-deb-utils/Makefile
+endif
+
+%:
+	dh $@ --with python2,python3 --buildsystem=pybuild

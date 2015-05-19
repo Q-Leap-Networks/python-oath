@@ -1,0 +1,5 @@
+python-oath (1.3.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Goswin von Brederlow <brederlo@q-leap.de>  Thu, 12 Mar 2015 11:11:09 +0000
