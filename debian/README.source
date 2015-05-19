@@ -1,0 +1,8 @@
+python-oath for Debian
+----------------------
+
+The orig.tar.gz is repackaged to remove RFCs under the non-free RFC
+license (BCP78). Git attributes are set to exclude them so "git
+archive" can be used to produce tarballs for future versions.
+
+ -- Goswin von Brederlow <brederlo@q-leap.de>  Tue, 19 May 2015 13:00:09 +0000

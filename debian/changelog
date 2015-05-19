@@ -1,5 +1,6 @@
-python-oath (1.4.0-1) unstable; urgency=low
+python-oath (1.4.0+dfsg-1) unstable; urgency=medium
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release (Closes: #785703)
+    + remove non-free RFC from orig tarball and package
 
- -- Goswin von Brederlow <brederlo@q-leap.de>  Tue, 19 May 2015 09:41:22 +0000
+ -- Goswin von Brederlow <brederlo@q-leap.de>  Tue, 19 May 2015 12:19:41 +0000
