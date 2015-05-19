@@ -3,9 +3,9 @@ Priority: optional
 Maintainer: Goswin von Brederlow <brederlo@q-leap.de>
 Standards-Version: 3.9.4
 Section: libs
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://git.debian.org/collab-maint/python-oath.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/python-oath.git;a=summary
+Homepage: https://github.com/bdauvergne/python-oath
+Vcs-Git: https://github.com/Q-Leap-Networks/python-oath/tree/ql
+Vcs-Browser: https://github.com/Q-Leap-Networks/python-oath/tree/ql
 X-Python-Version: >= 2.6
 X-Python3-Version: >= 3.2
 Build-Depends:
